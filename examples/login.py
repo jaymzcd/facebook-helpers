@@ -1,5 +1,5 @@
 from wsgiref.simple_server import make_server
-from fbhelpers import FBHelper
+from fbhelpers.common import FBHelper
 
 def login_test(environ, start_response):
     if code is None:
